@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/load_layout" android:background="@drawable/rect_rounded_peach" android:paddingLeft="10.0dip" android:paddingTop="16.0dip" android:paddingRight="10.0dip" android:paddingBottom="16.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.telegram.Adel.TextView android:textSize="14.0sp" android:textColor="#ff0f6343" android:gravity="center" android:id="@id/txtLoad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="لطفا منتظر بمانید" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/btnTryAgain" android:background="@drawable/rect_rounded_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="تلاش مجدد" />
+</LinearLayout>

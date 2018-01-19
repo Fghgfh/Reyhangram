@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" app:cardBackgroundColor="@color/cardview_light_background">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+            <RelativeLayout android:background="@drawable/rect_rounded_peach" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <org.telegram.Adel.TextView android:textColor="#ff444444" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/voiceChangerHelp" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <org.telegram.Adel.TextView android:textColor="#ff444444" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/PleaseChooseyourmode" />
+                <RadioGroup android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <org.telegram.Adel.RadioButton android:textColor="#ff444444" android:gravity="center" android:id="@id/radio_01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/NormalMode" />
+                    <org.telegram.Adel.RadioButton android:textColor="#ff444444" android:gravity="center" android:id="@id/radio_02" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ModeWrite1" />
+                    <org.telegram.Adel.RadioButton android:textColor="#ff444444" android:gravity="center" android:id="@id/radio_03" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ModeWrite2" />
+                    <org.telegram.Adel.RadioButton android:textColor="#ff444444" android:gravity="center" android:id="@id/radio_04" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ModeWrite3" />
+                    <org.telegram.Adel.RadioButton android:textColor="#ff444444" android:gravity="center" android:id="@id/radio_05" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ModeWrite4" />
+                    <org.telegram.Adel.RadioButton android:textColor="#ff444444" android:gravity="center" android:id="@id/radio_06" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ModeWrite5" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/confvoice" android:background="@drawable/rect_rounded_peach" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:minHeight="40.0dip" />
+            <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/save_bottom" android:background="@drawable/rect_rounded_green" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Save" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
